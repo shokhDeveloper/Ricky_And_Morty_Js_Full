@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <main style="min-height: 100vh;" class="d-flex align-items-center ">
+        <div class="container">
+            <div class="settings_links w-50 d-flex justify-content-between">
+                <a href="./index.html">Akkaunt ma'lumotlar</a>
+                <a href="../Posts/index.html" class="text-decoration-none">Postlar</a>
+                <a href="../MyPosts/index.html" class="text-decoration-none">Sizning postlaringiz</a>
+           
+            </div>
+            <form class="text-start w-50 mt-3  d-flex justify-content-center align-items-center flex-column  mx-auto">
+                <div class="child_settings w-100 mx-auto text-center">
+                    <label for="name" class="w-50 mx-auto text-start">
+                        <p class="name_label_text">Name</p>
+                        <input readonly type="text" name="name" id="name" class="form-control w-100 mx-auto" required>
+                    </label>
+                    <label for="lastname" class="text-start w-50 mx-auto my-4">
+                        <p class="lastname_label_text">Lastname</p>
+                        <input readonly type="text" name="lastname" id="lastname" class="form-control w-100 mx-auto" required>
+                    </label>
+                    <label for="email" class="w-50 mx-auto text-start">
+                        <p class="email_label_text">Email</p>
+                        <input readonly type="email" name="email" id="email" class="form-control w-100 mx-auto" required>
+                    </label>
+                    <label for="password" class="w-50 mx-auto my-4 text-start">
+                        <p class="password_label_text">Password</p>
+                        <input readonly type="password" class="form-control w-100" name="password" id="password"  required>
+                    </label>
+                </div>
+                <button type="button" class="btn btn-secondary tahrirlash" >Tahrirlash</button>
+                <button class="btn btn-primary submit_btn">Yuborish</button>
+                <a href="http://127.0.0.1:5500/index.html" class="text-light text-decoration-none mt-4 ">Sizda akkaunt mavjudmi ? </a>
+            </form>
+        </div>
+    </main>
+
+
+    
+    <script src="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="../Javascript/axios.js"></script>
+    <script src="../Javascript/utils.api.js"></script>
+    <script src="../Javascript/settings.js"></script>
+</body>
+</html>

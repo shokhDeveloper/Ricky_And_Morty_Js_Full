@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <style>
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <template>
+        <li  class="post rounded my-2 p-2 text-light bg-dark" style="width: 32%;">
+            <h3>Title</h3>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis enim recusandae laboriosam reprehenderit minus ipsa at in sunt voluptates neque?</h5>
+            <h6>Avtor</h6>
+        </li>
+    </template>
+    <main style="min-height: 100vh;" class="d-flex justify-content-center text-center align-items-center ">
+        <div class="container">
+            <div class="settings_links w-50 d-flex justify-content-between">
+                <a href="../Settings/index.html" class="text-decoration-none">Akkaunt ma'lumotlar</a>
+                <a href="index.html" class="text-decoration-unserline">Postlar</a>
+                <a href="../MyPosts/index.html" class="text-decoration-none">Sizning postlaringiz</a>
+            </div>
+            <h2 class="py-3">Postlar</h2>
+            <ul class="border posts__ul p-2 align-items-center overflow-scroll pt-5 list-unstyled rounded text-center w-100 d-flex justify-content-between flex-wrap" style="height: 450px; display: flex;">
+
+
+            </ul>
+        </div>
+    </main>
+
+    <script src="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="../Javascript/axios.js"></script>
+    <script src="../Javascript/utils.api.js"></script>
+    <script src="../Javascript/postsAll.js"></script>
+</body>
+</html>

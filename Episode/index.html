@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <style>
+        .border_none{
+            border: 1px solid aqua;
+            padding: 0.5rem;
+            margin: 0rem 0.5rem;
+            background: #fff;
+            border-radius: 10px;
+            outline: 1px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="py-2">
+            <div class="container">
+                <div class="header__items d-flex align-items-center justify-content-between">
+                    <a class="fs-2 text-dark text-decoration-none" href="./index.html">
+                       <strong>Ricky and <span class="text-primary">Morty</span></strong>  
+                    </a>
+                    <ul class="list-unstyled w-50 position-relative d-flex align-items-center justify-content-between" style="top: 0.8rem;">
+                        <li><a class="fs-5 text-decoration-none"  href="../Main/index.html">Character</a></li>
+                        <li><a class="fs-5 " href="./index.html">Episode</a></li>
+                        <li><a class="fs-5 text-decoration-none" href="../Location/index.html">Location</a></li>
+                    </ul>   
+                    <a href="../Settings/index.html" class="btn btn-primary akkaunt_case rounded-pill">S.M</a>       
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <template>
+        <li class="p-3 rounded border" style="width: 32%">
+            <div class="position-relative">
+                <span class="translate-middle character_status position-absolute top-0 start-100 p-2 bg-success rounded-pill text-light">Alive</span>
+                <img src="http://via.placeholder.com/200x200" style="width: 100%;"  alt="">
+                
+            </div>
+            <h4 class="pt-2 character_name">Name Character</h4>
+            
+        </li>
+    </template>
+    <main class="text-center mt-4">
+        <section class="hero">
+            <div class="container">
+                <h1>Episode</h1>
+                <h2>Episode = <span class="text-primary episode_name" >Pilot</span></h2>
+                <h3 class="episode_date">2023</h3>
+                <div class="row">
+                    <div class="col-6 border">
+                        <select class="form-select episode__select">
+                            <option value="filter" selected disabled >Filter by episode</option>
+                        </select>
+                    </div>  
+                    <div class=" border col-6">
+                        <ul class="character__items d-flex align-items-center justify-content-between flex-wrap list-unstyled">
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="../Javascript/axios.js"></script>
+    <script src="../Javascript/utils.api.js"></script>
+    <script src="../Javascript/episode.js"></script>
+</body>
+</html>

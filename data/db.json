@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "email": "nuriddin@gmail.com",
+      "password": "$2a$10$DFl0QJMzYn/3KMSDq8gapeH/M2K.LBDdPKcafcdvVBnZh/M6XYDl.",
+      "name": "Nuriddin",
+      "lastname": "Qamariddinov",
+      "id": 1
+    },
+    {
+      "name": "Nuriddin",
+      "lastname": "Nurik",
+      "email": "nuriddin@gmail.com",
+      "password": "$2a$10$ub31rL.AKP02lQ.uz3Zb6.TZo56JLRHPKOETDrTTrtnJkL2LMLgTu",
+      "date": "21.06.2023, 10:58:00 Update-it in user",
+      "id": 2
+    },
+    {
+      "email": "shohijahonmusinkulov@gmail.com",
+      "password": "$2a$10$tUtnM4EgCTPu6MeuXFmoK.NTUb0X91NQx2aRB5o1wC6pwzka8G.US",
+      "name": "Shohijahon",
+      "lastname": "Musinkulov",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "title": "Dastur haqida",
+      "body": "dastur yaxshi ishlayapti",
+      "date": "21.06.2023, 11:53:22 create-At in post",
+      "user_name": "Nuriddin Nurik",
+      "user_id": 2,
+      "id": 1
+    },
+    {
+      "title": "Dasturda hatolik",
+      "body": "dasturni falonchi joyida hatolik bor",
+      "date": "21.06.2023, 12:00:33 create-At in post",
+      "user_name": "Nuriddin Nurik",
+      "user_id": 2,
+      "id": 2
+    },
+    {
+      "title": "Dastur Avtor",
+      "body": "Hozircha hatolik yuq",
+      "date": "21.06.2023, 12:04:06 create-At in post",
+      "user_name": "Shohijahon Musinkulov",
+      "user_id": 3,
+      "id": 3
+    },
+    {
+      "title": "Nurik",
+      "body": "Ikkinchi Post",
+      "date": "23.06.2023, 10:30:12 create-At in post",
+      "user_name": "Nuriddin Qamariddinov",
+      "user_id": 1,
+      "id": 4
+    },
+    {
+      "title": "Eski",
+      "body": "Post",
+      "date": "23.06.2023, 10:48:03 Update-id its post",
+      "user_id": 1,
+      "user_name": "Nuriddin Qamariddinov",
+      "id": 5
+    }
+  ]
+}

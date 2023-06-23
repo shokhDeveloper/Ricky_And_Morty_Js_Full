@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+
+    <div class="register  text-light d-flex align-items-center text-center" style="min-height: 100vh;">
+        <div class="container">
+            <h1>Register</h1>
+            <form class="text-start w-50 d-flex align-items-center flex-column  mx-auto">
+                <label for="name" class="w-50 mx-auto">
+                    <p class="name_label_text">Name</p>
+                    <input type="text" name="name" id="name" class="form-control w-100 mx-auto" required>
+                </label>
+                <label for="lastname" class="w-50 mx-auto my-4">
+                    <p class="lastname_label_text">Lastname</p>
+                    <input type="text" name="lastname" id="lastname" class="form-control w-100 mx-auto" required>
+                </label>
+                <label for="email" class="w-50 mx-auto">
+                    <p class="email_label_text">Email</p>
+                    <input type="email" name="email" id="email" class="form-control w-100 mx-auto" required>
+                </label>
+                <label for="password" class="w-50 mx-auto my-4">
+                    <p class="password_label_text">Password</p>
+                    <input type="password" class="form-control w-100" name="password" id="password"  required>
+                </label>
+                <button class="btn btn-primary">Yuborish</button>
+                <a href="http://127.0.0.1:5500/index.html" class="text-light text-decoration-none mt-4 ">Sizda akkaunt mavjudmi ? </a>
+            </form>
+        </div>
+    </div>
+    <div class="result"></div>
+    <button class="p">Previous</button>
+    <p class="page text-light">1</p>
+    <p class="page text-light">2</p>
+    <p class="page text-light">3</p>
+    <button class="n">Next</button>
+    <script src="../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="../Javascript/axios.js"></script>
+    <script src="../Javascript/register.js"></script>
+</body>
+</html>

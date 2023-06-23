@@ -1,0 +1,16 @@
+{
+  "name": "5-dars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server ./data/db.json -m ./node_modules/json-server-auth --port 999"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0"
+  }
+}
